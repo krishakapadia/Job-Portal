@@ -1,0 +1,15 @@
+.admin-jobs-container {
+  max-width: 1200px;
+  margin: 2.5rem auto;
+}
+
+.admin-jobs-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.25rem 0;
+}
+
+.admin-jobs-input {
+  width: auto;
+}

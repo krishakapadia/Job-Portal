@@ -1,0 +1,21 @@
+.action-cell {
+  text-align: right;
+  cursor: pointer;
+}
+
+.popover-content {
+  width: 8rem;
+  padding: 0.5rem;
+}
+
+.edit-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.edit-icon {
+  width: 1rem;
+}

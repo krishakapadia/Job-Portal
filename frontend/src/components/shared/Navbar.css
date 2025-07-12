@@ -1,0 +1,94 @@
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  height: 64px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #F83002;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-auth {
+  display: flex;
+  gap: 10px;
+}
+
+.signup-btn {
+  background-color: #6A38C2;
+  color: white;
+}
+
+.signup-btn:hover {
+  background-color: #5b30a6;
+}
+
+.avatar {
+  cursor: pointer;
+}
+
+.popover {
+  width: 320px;
+}
+
+.popover-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.user-name {
+  font-weight: 500;
+}
+
+.user-bio {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.popover-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.popover-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

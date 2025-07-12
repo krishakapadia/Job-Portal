@@ -1,0 +1,38 @@
+.applied-job-table {
+  padding: 20px;
+}
+
+.no-jobs {
+  display: block;
+  font-size: 14px;
+  color: #888;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.status-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Status-specific colors */
+.status-badge.rejected {
+  background-color: #f87171; /* red */
+}
+
+.status-badge.pending {
+  background-color: #a1a1aa; /* gray */
+}
+
+.status-badge.accepted {
+  background-color: #4ade80; /* green */
+}
+
+/* Optional alignment override */
+.text-right {
+  text-align: right;
+}

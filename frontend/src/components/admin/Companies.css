@@ -1,0 +1,15 @@
+.companies-container {
+  max-width: 1200px;
+  margin: 2.5rem auto;
+}
+
+.companies-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.25rem 0;
+}
+
+.filter-input {
+  width: auto;
+}

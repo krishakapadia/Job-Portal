@@ -1,0 +1,28 @@
+.company-create-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.company-create-header {
+  margin: 2.5rem 0;
+}
+
+.company-create-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.company-create-subtext {
+  color: #6b7280; /* gray-500 */
+}
+
+.company-name-input {
+  margin: 0.5rem 0;
+}
+
+.company-create-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 2.5rem 0;
+}

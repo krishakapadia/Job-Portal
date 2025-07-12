@@ -1,0 +1,30 @@
+/* src/components/CategoryCarousel.css */
+
+.category-carousel-wrapper {
+  margin: 80px auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-container {
+  max-width: 768px;
+  width: 100%;
+}
+
+.carousel-item {
+  flex-basis: 50%;
+}
+
+.category-button {
+  border-radius: 9999px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.category-button:hover {
+  background-color: #f2f2f2;
+}
